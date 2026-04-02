@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python app/ingest/fetch_events.py)",
+      "Bash(python -c \"from app.models.schemas import RawEvent, EnrichedCompany, LeadScore, DeliveryRecord; print\\(''OK''\\)\")",
+      "Bash(pip install:*)",
+      "Bash(python app/enrich/company.py)",
+      "Bash(python -m app.enrich.company)",
+      "Bash(python -m app.score.lead_scorer)",
+      "Bash(python -m app.deliver.csv_export)",
+      "Bash(python -c \":*)",
+      "Bash(python:*)"
+    ]
+  }
+}
