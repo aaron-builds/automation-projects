@@ -59,21 +59,51 @@ def build_outreach_line(company_name: str, reasons: list[str]) -> str:
     is_london = any("london" in r.lower() for r in reasons)
     is_tech = any("tech" in r.lower() for r in reasons)
     is_property = any("property" in r.lower() for r in reasons)
+    is_diversified = any("diversified" in r.lower() for r in reasons)
 
-    if is_tech:
-        angle = "tech startups often need specialist advice on R&D tax credits and share schemes from day one"
+    name = company_name.title()
+
+    if is_tech and is_london:
+        return (
+            f"{name} incorporated recently in London — R&D tax relief, EMI share schemes, "
+            f"and early structure decisions are worth getting right from month one. "
+            f"Worth a conversation?"
+        )
+    elif is_tech:
+        return (
+            f"{name} is a newly incorporated tech business — R&D tax credits and share scheme "
+            f"setup are time-sensitive from incorporation. Happy to run through what applies to them?"
+        )
+    elif is_property and is_london:
+        return (
+            f"{name} has just incorporated in London with property activity — VAT elections, "
+            f"SDLT structure, and ownership setup are worth reviewing early. "
+            f"Would a quick conversation be useful?"
+        )
     elif is_property:
-        angle = "property companies benefit from early advice on VAT elections, stamp duty, and structure"
+        return (
+            f"{name} incorporated recently with property interests — SDLT structure, VAT position, "
+            f"and ownership setup are worth reviewing before their first transaction. "
+            f"Worth a brief call?"
+        )
+    elif is_london and is_diversified:
+        return (
+            f"{name} is a newly incorporated London business with activity across multiple sectors — "
+            f"early advice on structure, VAT, and reporting obligations tends to save significant cost later. "
+            f"Open to a conversation?"
+        )
     elif is_london:
-        angle = "new London businesses often benefit from early advice on company structure and tax planning"
+        return (
+            f"{name} incorporated recently in London — getting accounts, tax registration, "
+            f"and payroll set up correctly from the start avoids costly corrections later. "
+            f"Would it be worth a brief call?"
+        )
     else:
-        angle = "new companies often benefit from getting their accounts and tax set up correctly from the start"
-
-    name_title = company_name.title()
-    return (
-        f"Hi, I noticed {name_title} was recently incorporated - "
-        f"{angle}. Would you be open to a brief chat?"
-    )
+        return (
+            f"{name} incorporated recently — early advice on accounts, corporation tax, "
+            f"and payroll setup prevents the common mistakes that cost new businesses later. "
+            f"Happy to have a quick conversation if useful?"
+        )
 
 
 def main():
