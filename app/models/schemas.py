@@ -26,6 +26,7 @@ class EnrichedCompany(BaseModel):
     company_name: str
     incorporated_date: date
     company_type: Optional[str] = None
+    company_status: Optional[str] = None
     registered_office_address: Optional[Address] = None
     region: Optional[str] = None
     company_age_days: Optional[int] = None

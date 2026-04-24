@@ -134,6 +134,7 @@ def main():
             "suggested_outreach_line": build_outreach_line(company.get("company_name", ""), reasons),
         })
 
+    rows = [r for r in rows if r["band"] != "excluded"]
     rows.sort(key=lambda r: r["score"], reverse=True)
 
     # Rename columns for human-readable export

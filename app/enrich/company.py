@@ -29,6 +29,7 @@ def enrich(raw_items: list[dict]) -> list[EnrichedCompany]:
                 company_name=item["company_name"],
                 incorporated_date=incorporated_date,
                 company_type=item.get("company_type"),
+                company_status=item.get("company_status"),
                 registered_office_address=Address(**address_data) if address_data else None,
                 region=extract_region(address_data),
                 company_age_days=(today - incorporated_date).days,

@@ -22,7 +22,42 @@ def is_london(company: EnrichedCompany) -> bool:
     return False
 
 
+EXCLUDED_STATUSES = {"dormant", "dissolved", "liquidation", "administration"}
+EXCLUDED_SICS = {"99999", "98000"}
+EXCLUDED_NAME_WORDS = {"holdings", "nominee", "trustee", "dormant"}
+
+
 def score_company(company: EnrichedCompany) -> LeadScore:
+    # --- Exclusions ---
+    status = (company.company_status or "").lower()
+    if status in EXCLUDED_STATUSES:
+        return LeadScore(
+            company_number=company.company_number,
+            score=0,
+            band="excluded",
+            score_reasons=[f"Excluded: company status is '{status}'"],
+        )
+
+    sics = set(company.sic_codes or [])
+    bad_sics = sics & EXCLUDED_SICS
+    if bad_sics:
+        return LeadScore(
+            company_number=company.company_number,
+            score=0,
+            band="excluded",
+            score_reasons=[f"Excluded: SIC code(s) {', '.join(sorted(bad_sics))} indicate non-trading entity"],
+        )
+
+    name_lower = (company.company_name or "").lower()
+    for word in EXCLUDED_NAME_WORDS:
+        if word in name_lower.split():
+            return LeadScore(
+                company_number=company.company_number,
+                score=0,
+                band="excluded",
+                score_reasons=[f"Excluded: company name contains '{word}'"],
+            )
+
     points = 0
     reasons = []
 
