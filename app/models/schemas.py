@@ -19,6 +19,8 @@ class RawEvent(BaseModel):
     incorporated_date: date
     company_type: Optional[str] = None
     registered_office_address: Optional[Address] = None
+    director_name: Optional[str] = None
+    director_appointed: Optional[date] = None
 
 
 class EnrichedCompany(BaseModel):
@@ -31,6 +33,8 @@ class EnrichedCompany(BaseModel):
     region: Optional[str] = None
     company_age_days: Optional[int] = None
     sic_codes: Optional[list[str]] = None
+    director_name: Optional[str] = None
+    director_appointed: Optional[date] = None
 
 
 class LeadScore(BaseModel):

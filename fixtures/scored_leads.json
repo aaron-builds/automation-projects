@@ -1,235 +1,189 @@
 [
   {
-    "company_number": "17144635",
-    "score": 80,
-    "band": "high",
-    "score_reasons": [
-      "Very recently incorporated",
-      "London-based company",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17144681",
-    "score": 70,
+    "company_number": "17208464",
+    "score": 50,
     "band": "medium",
     "score_reasons": [
-      "Very recently incorporated",
+      "Recently incorporated",
       "Private limited company",
-      "Property / real estate sector (SIC 68xxx)"
+      "Diversified SIC profile (3+ codes)"
     ]
   },
   {
-    "company_number": "17144683",
-    "score": 80,
-    "band": "high",
-    "score_reasons": [
-      "Very recently incorporated",
-      "London-based company",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17144688",
-    "score": 60,
+    "company_number": "17208507",
+    "score": 45,
     "band": "medium",
     "score_reasons": [
-      "Very recently incorporated",
+      "Recently incorporated",
       "Private limited company"
     ]
   },
   {
-    "company_number": "17144690",
-    "score": 90,
-    "band": "high",
-    "score_reasons": [
-      "Very recently incorporated",
-      "London-based company",
-      "Private limited company",
-      "Property / real estate sector (SIC 68xxx)"
-    ]
-  },
-  {
-    "company_number": "17144693",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17144685",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17144906",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17144910",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17144909",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17144930",
-    "score": 95,
-    "band": "high",
-    "score_reasons": [
-      "Very recently incorporated",
-      "London-based company",
-      "Private limited company",
-      "Tech / IT sector (SIC 62xxx-63xxx)"
-    ]
-  },
-  {
-    "company_number": "17144934",
-    "score": 80,
-    "band": "high",
-    "score_reasons": [
-      "Very recently incorporated",
-      "London-based company",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17144992",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17145190",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17145186",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17145184",
-    "score": 75,
-    "band": "high",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company",
-      "Tech / IT sector (SIC 62xxx-63xxx)"
-    ]
-  },
-  {
-    "company_number": "17145227",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17145226",
-    "score": 70,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company",
-      "Property / real estate sector (SIC 68xxx)"
-    ]
-  },
-  {
-    "company_number": "17145218",
+    "company_number": "17208506",
     "score": 65,
     "band": "medium",
     "score_reasons": [
-      "Very recently incorporated",
+      "Recently incorporated",
       "Private limited company",
+      "Tech / IT sector (SIC 62xxx-63xxx)",
       "Diversified SIC profile (3+ codes)"
     ]
   },
   {
-    "company_number": "17145219",
-    "score": 60,
+    "company_number": "17208509",
+    "score": 65,
     "band": "medium",
     "score_reasons": [
-      "Very recently incorporated",
+      "Recently incorporated",
+      "London-based company",
       "Private limited company"
     ]
   },
   {
-    "company_number": "17145213",
-    "score": 60,
-    "band": "medium",
+    "company_number": "17208502",
+    "score": 0,
+    "band": "excluded",
     "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
+      "Excluded: company name contains 'holdings'"
     ]
   },
   {
-    "company_number": "17145215",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17145230",
-    "score": 95,
+    "company_number": "17208519",
+    "score": 80,
     "band": "high",
     "score_reasons": [
-      "Very recently incorporated",
+      "Recently incorporated",
       "London-based company",
       "Private limited company",
       "Tech / IT sector (SIC 62xxx-63xxx)"
     ]
   },
   {
-    "company_number": "17145280",
-    "score": 60,
+    "company_number": "17208521",
+    "score": 45,
     "band": "medium",
     "score_reasons": [
-      "Very recently incorporated",
+      "Recently incorporated",
       "Private limited company"
     ]
   },
   {
-    "company_number": "17145281",
+    "company_number": "17208621",
+    "score": 45,
+    "band": "medium",
+    "score_reasons": [
+      "Recently incorporated",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "17208620",
+    "score": 65,
+    "band": "medium",
+    "score_reasons": [
+      "Recently incorporated",
+      "London-based company",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "17208626",
+    "score": 65,
+    "band": "medium",
+    "score_reasons": [
+      "Recently incorporated",
+      "London-based company",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "17208614",
+    "score": 55,
+    "band": "medium",
+    "score_reasons": [
+      "Recently incorporated",
+      "Private limited company",
+      "Property / real estate sector (SIC 68xxx)"
+    ]
+  },
+  {
+    "company_number": "17208721",
+    "score": 45,
+    "band": "medium",
+    "score_reasons": [
+      "Recently incorporated",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "17208733",
+    "score": 45,
+    "band": "medium",
+    "score_reasons": [
+      "Recently incorporated",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "17208725",
+    "score": 65,
+    "band": "medium",
+    "score_reasons": [
+      "Recently incorporated",
+      "Private limited company",
+      "Tech / IT sector (SIC 62xxx-63xxx)",
+      "Diversified SIC profile (3+ codes)"
+    ]
+  },
+  {
+    "company_number": "17208723",
+    "score": 0,
+    "band": "excluded",
+    "score_reasons": [
+      "Excluded: company name contains 'holdings'"
+    ]
+  },
+  {
+    "company_number": "17208785",
+    "score": 60,
+    "band": "medium",
+    "score_reasons": [
+      "Recently incorporated",
+      "Private limited company",
+      "Tech / IT sector (SIC 62xxx-63xxx)"
+    ]
+  },
+  {
+    "company_number": "17208782",
+    "score": 65,
+    "band": "medium",
+    "score_reasons": [
+      "Recently incorporated",
+      "London-based company",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "SC889050",
+    "score": 60,
+    "band": "medium",
+    "score_reasons": [
+      "Recently incorporated",
+      "Private limited company",
+      "Tech / IT sector (SIC 62xxx-63xxx)"
+    ]
+  },
+  {
+    "company_number": "17208783",
+    "score": 45,
+    "band": "medium",
+    "score_reasons": [
+      "Recently incorporated",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "17208886",
     "score": 85,
     "band": "high",
     "score_reasons": [
@@ -240,54 +194,7 @@
     ]
   },
   {
-    "company_number": "NI739606",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17145283",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17145289",
-    "score": 90,
-    "band": "high",
-    "score_reasons": [
-      "Very recently incorporated",
-      "London-based company",
-      "Private limited company",
-      "Property / real estate sector (SIC 68xxx)"
-    ]
-  },
-  {
-    "company_number": "17145292",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "NI739607",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17145291",
+    "company_number": "17208975",
     "score": 75,
     "band": "high",
     "score_reasons": [
@@ -297,7 +204,7 @@
     ]
   },
   {
-    "company_number": "17145286",
+    "company_number": "17208972",
     "score": 60,
     "band": "medium",
     "score_reasons": [
@@ -306,28 +213,7 @@
     ]
   },
   {
-    "company_number": "17145336",
-    "score": 85,
-    "band": "high",
-    "score_reasons": [
-      "Very recently incorporated",
-      "London-based company",
-      "Private limited company",
-      "Diversified SIC profile (3+ codes)"
-    ]
-  },
-  {
-    "company_number": "17145337",
-    "score": 80,
-    "band": "high",
-    "score_reasons": [
-      "Very recently incorporated",
-      "London-based company",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17145341",
+    "company_number": "17208970",
     "score": 60,
     "band": "medium",
     "score_reasons": [
@@ -336,38 +222,27 @@
     ]
   },
   {
-    "company_number": "17145335",
-    "score": 90,
-    "band": "high",
+    "company_number": "17208968",
+    "score": 70,
+    "band": "medium",
     "score_reasons": [
       "Very recently incorporated",
-      "London-based company",
       "Private limited company",
       "Property / real estate sector (SIC 68xxx)"
     ]
   },
   {
-    "company_number": "17145333",
-    "score": 80,
+    "company_number": "17208971",
+    "score": 75,
     "band": "high",
     "score_reasons": [
       "Very recently incorporated",
-      "London-based company",
-      "Private limited company"
+      "Private limited company",
+      "Tech / IT sector (SIC 62xxx-63xxx)"
     ]
   },
   {
-    "company_number": "17145326",
-    "score": 80,
-    "band": "high",
-    "score_reasons": [
-      "Very recently incorporated",
-      "London-based company",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17145323",
+    "company_number": "17209003",
     "score": 60,
     "band": "medium",
     "score_reasons": [
@@ -376,52 +251,7 @@
     ]
   },
   {
-    "company_number": "17145338",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17145399",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17145401",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17145410",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17145408",
-    "score": 60,
-    "band": "medium",
-    "score_reasons": [
-      "Very recently incorporated",
-      "Private limited company"
-    ]
-  },
-  {
-    "company_number": "17145501",
+    "company_number": "17209017",
     "score": 80,
     "band": "high",
     "score_reasons": [
@@ -432,7 +262,7 @@
     ]
   },
   {
-    "company_number": "17145471",
+    "company_number": "17209004",
     "score": 60,
     "band": "medium",
     "score_reasons": [
@@ -441,7 +271,17 @@
     ]
   },
   {
-    "company_number": "17145481",
+    "company_number": "17209006",
+    "score": 80,
+    "band": "high",
+    "score_reasons": [
+      "Very recently incorporated",
+      "London-based company",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "17209057",
     "score": 60,
     "band": "medium",
     "score_reasons": [
@@ -450,7 +290,18 @@
     ]
   },
   {
-    "company_number": "17145482",
+    "company_number": "17209065",
+    "score": 95,
+    "band": "high",
+    "score_reasons": [
+      "Very recently incorporated",
+      "London-based company",
+      "Private limited company",
+      "Tech / IT sector (SIC 62xxx-63xxx)"
+    ]
+  },
+  {
+    "company_number": "17209059",
     "score": 60,
     "band": "medium",
     "score_reasons": [
@@ -459,7 +310,7 @@
     ]
   },
   {
-    "company_number": "17145477",
+    "company_number": "17209240",
     "score": 60,
     "band": "medium",
     "score_reasons": [
@@ -468,7 +319,153 @@
     ]
   },
   {
-    "company_number": "17145498",
+    "company_number": "17209237",
+    "score": 80,
+    "band": "high",
+    "score_reasons": [
+      "Very recently incorporated",
+      "London-based company",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "17209236",
+    "score": 60,
+    "band": "medium",
+    "score_reasons": [
+      "Very recently incorporated",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "17209238",
+    "score": 60,
+    "band": "medium",
+    "score_reasons": [
+      "Very recently incorporated",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "17209239",
+    "score": 60,
+    "band": "medium",
+    "score_reasons": [
+      "Very recently incorporated",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "17209231",
+    "score": 60,
+    "band": "medium",
+    "score_reasons": [
+      "Very recently incorporated",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "17209279",
+    "score": 60,
+    "band": "medium",
+    "score_reasons": [
+      "Very recently incorporated",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "17209310",
+    "score": 60,
+    "band": "medium",
+    "score_reasons": [
+      "Very recently incorporated",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "17209300",
+    "score": 60,
+    "band": "medium",
+    "score_reasons": [
+      "Very recently incorporated",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "17209308",
+    "score": 60,
+    "band": "medium",
+    "score_reasons": [
+      "Very recently incorporated",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "17209517",
+    "score": 70,
+    "band": "medium",
+    "score_reasons": [
+      "Very recently incorporated",
+      "Private limited company",
+      "Property / real estate sector (SIC 68xxx)"
+    ]
+  },
+  {
+    "company_number": "17209519",
+    "score": 0,
+    "band": "excluded",
+    "score_reasons": [
+      "Excluded: company name contains 'holdings'"
+    ]
+  },
+  {
+    "company_number": "SC889097",
+    "score": 0,
+    "band": "excluded",
+    "score_reasons": [
+      "Excluded: SIC code(s) 98000 indicate non-trading entity"
+    ]
+  },
+  {
+    "company_number": "SC889098",
+    "score": 60,
+    "band": "medium",
+    "score_reasons": [
+      "Very recently incorporated",
+      "Private limited company"
+    ]
+  },
+  {
+    "company_number": "17209636",
+    "score": 90,
+    "band": "high",
+    "score_reasons": [
+      "Very recently incorporated",
+      "London-based company",
+      "Private limited company",
+      "Property / real estate sector (SIC 68xxx)"
+    ]
+  },
+  {
+    "company_number": "17209637",
+    "score": 65,
+    "band": "medium",
+    "score_reasons": [
+      "Very recently incorporated",
+      "London-based company",
+      "Diversified SIC profile (3+ codes)"
+    ]
+  },
+  {
+    "company_number": "17209642",
+    "score": 40,
+    "band": "low",
+    "score_reasons": [
+      "Very recently incorporated"
+    ]
+  },
+  {
+    "company_number": "17209643",
     "score": 60,
     "band": "medium",
     "score_reasons": [

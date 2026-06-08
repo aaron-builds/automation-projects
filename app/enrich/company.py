@@ -34,6 +34,8 @@ def enrich(raw_items: list[dict]) -> list[EnrichedCompany]:
                 region=extract_region(address_data),
                 company_age_days=(today - incorporated_date).days,
                 sic_codes=item.get("sic_codes"),
+                director_name=item.get("director_name"),
+                director_appointed=item.get("director_appointed"),
             )
         )
     return enriched

@@ -1,267 +1,224 @@
 {
-  "etag": "90e4729c3b52ea29c43c623872c8dd6b770f6030",
+  "etag": "bce2ac6ea5aaf641f335f6a1528e1f4a82acd430",
   "top_hit": {
-    "company_name": "WILLOWS JOURNEY PRODUCTIONS LTD",
-    "company_number": "17144635",
+    "company_name": "TRUE ARABICA COFFEE LIMITED",
+    "company_number": "17208464",
     "company_status": "active",
     "company_type": "ltd",
     "kind": "search-results#company",
     "links": {
-      "company_profile": "/company/17144635"
+      "company_profile": "/company/17208464"
     },
-    "date_of_creation": "2026-04-08",
+    "date_of_creation": "2026-05-09",
     "registered_office_address": {
-      "address_line_1": "71-75 Shelton Street",
-      "address_line_2": "Covent Garden",
-      "locality": "London",
-      "postal_code": "WC2H 9JQ",
-      "country": "United Kingdom"
+      "address_line_1": "20 St. Andrews Drive",
+      "address_line_2": "Chelmsford Garden",
+      "locality": "Chelmsford",
+      "postal_code": "CM3 3GH",
+      "country": "England"
     },
     "sic_codes": [
-      "59111"
+      "10832",
+      "46370",
+      "47910"
     ]
   },
   "items": [
     {
-      "company_name": "WILLOWS JOURNEY PRODUCTIONS LTD",
-      "company_number": "17144635",
+      "company_name": "TRUE ARABICA COFFEE LIMITED",
+      "company_number": "17208464",
       "company_status": "active",
       "company_type": "ltd",
       "kind": "search-results#company",
       "links": {
-        "company_profile": "/company/17144635"
+        "company_profile": "/company/17208464"
       },
-      "date_of_creation": "2026-04-08",
+      "date_of_creation": "2026-05-09",
       "registered_office_address": {
-        "address_line_1": "71-75 Shelton Street",
-        "address_line_2": "Covent Garden",
-        "locality": "London",
-        "postal_code": "WC2H 9JQ",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "59111"
-      ]
-    },
-    {
-      "company_name": "J&J PRESTIGE LTD",
-      "company_number": "17144681",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17144681"
-      },
-      "date_of_creation": "2026-04-08",
-      "registered_office_address": {
-        "address_line_1": "11 Doncaster Road",
-        "locality": "Scunthorpe",
-        "postal_code": "DN15 7RA",
+        "address_line_1": "20 St. Andrews Drive",
+        "address_line_2": "Chelmsford Garden",
+        "locality": "Chelmsford",
+        "postal_code": "CM3 3GH",
         "country": "England"
       },
       "sic_codes": [
-        "68100",
-        "68209"
-      ]
+        "10832",
+        "46370",
+        "47910"
+      ],
+      "director_name": "Lavanya Nagasree Sadurla",
+      "director_appointed": "2026-05-09"
     },
     {
-      "company_name": "THE ORDINARY TRADER LTD",
-      "company_number": "17144683",
+      "company_name": "LB DRYLINING UK LIMITED",
+      "company_number": "17208507",
       "company_status": "active",
       "company_type": "ltd",
       "kind": "search-results#company",
       "links": {
-        "company_profile": "/company/17144683"
+        "company_profile": "/company/17208507"
       },
-      "date_of_creation": "2026-04-08",
+      "date_of_creation": "2026-05-09",
       "registered_office_address": {
-        "address_line_1": "128 City Road",
-        "locality": "London",
-        "postal_code": "EC1V 2NX",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "64991"
-      ]
-    },
-    {
-      "company_name": "FDW UK LIMITED",
-      "company_number": "17144688",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17144688"
-      },
-      "date_of_creation": "2026-04-08",
-      "registered_office_address": {
-        "address_line_1": "B1 Vantage Park Old Gloucester Road",
-        "address_line_2": "Hambrook",
-        "locality": "Bristol",
-        "postal_code": "BS16 1GW",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "64999"
-      ]
-    },
-    {
-      "company_name": "JOSEPH AND SONS CAPITAL LTD",
-      "company_number": "17144690",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17144690"
-      },
-      "date_of_creation": "2026-04-08",
-      "registered_office_address": {
-        "address_line_1": "35 Grafton Way",
-        "locality": "London",
-        "postal_code": "W1T 5DB",
+        "address_line_1": "24 Montgomery Drive",
+        "address_line_2": "Cheshunt",
+        "locality": "Waltham Cross",
+        "postal_code": "EN8 0LB",
         "country": "England"
-      },
-      "sic_codes": [
-        "68209"
-      ]
-    },
-    {
-      "company_name": "BERNICIA CAPITAL LIMITED",
-      "company_number": "17144693",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17144693"
-      },
-      "date_of_creation": "2026-04-08",
-      "registered_office_address": {
-        "address_line_1": "4 Capricorn Centre",
-        "address_line_2": "Cranes Farm Road",
-        "locality": "Basildon",
-        "postal_code": "SS14 3JJ",
-        "region": "Essex",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "64999"
-      ]
-    },
-    {
-      "company_name": "GLENWOOD HOME SOLUTIONS LTD",
-      "company_number": "17144685",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17144685"
-      },
-      "date_of_creation": "2026-04-08",
-      "registered_office_address": {
-        "address_line_1": "Office 7027 58 Peregrine Road, Hainault",
-        "address_line_2": "Ilford",
-        "locality": "Essex",
-        "postal_code": "IG6 3SZ",
-        "country": "United Kingdom"
       },
       "sic_codes": [
         "41202"
-      ]
+      ],
+      "director_name": "Leszek Andrzej Bledowski",
+      "director_appointed": "2026-05-09"
     },
     {
-      "company_name": "HOLTS FISH & CHIPS LTD",
-      "company_number": "17144906",
+      "company_name": "LIFELENS AI LTD",
+      "company_number": "17208506",
       "company_status": "active",
       "company_type": "ltd",
       "kind": "search-results#company",
       "links": {
-        "company_profile": "/company/17144906"
+        "company_profile": "/company/17208506"
       },
-      "date_of_creation": "2026-04-08",
+      "date_of_creation": "2026-05-09",
       "registered_office_address": {
-        "address_line_1": "144 Scotland Road",
-        "locality": "Nelson",
-        "postal_code": "BB9 7XT",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "56103"
-      ]
-    },
-    {
-      "company_name": "MIRA ECOMMERCE GOODS LIMITED",
-      "company_number": "17144910",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17144910"
-      },
-      "date_of_creation": "2026-04-08",
-      "registered_office_address": {
-        "address_line_1": "14 Tudor Close",
-        "address_line_2": "Long Eaton",
-        "locality": "Nottingham",
-        "postal_code": "NG10 1NF",
+        "address_line_1": "The Lodge Grange Lane",
+        "address_line_2": "Downham",
+        "locality": "Billericay",
+        "postal_code": "CM11 1LE",
         "country": "England"
       },
       "sic_codes": [
-        "46420",
-        "47910"
-      ]
-    },
-    {
-      "company_name": "GIPPING VALLEY CLEANING LTD",
-      "company_number": "17144909",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17144909"
-      },
-      "date_of_creation": "2026-04-08",
-      "registered_office_address": {
-        "address_line_1": "4 Hunter Road",
-        "locality": "Ipswich",
-        "postal_code": "IP3 9TN",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "81222"
-      ]
-    },
-    {
-      "company_name": "GREYMILL LIMITED",
-      "company_number": "17144930",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17144930"
-      },
-      "date_of_creation": "2026-04-08",
-      "registered_office_address": {
-        "address_line_1": "71-75 Shelton Street",
-        "address_line_2": "Covent Garden",
-        "locality": "London",
-        "postal_code": "WC2H 9JQ",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
         "62012",
-        "62020"
-      ]
+        "72190",
+        "86900"
+      ],
+      "director_name": "Thomas Edward Bolden",
+      "director_appointed": "2026-05-09"
     },
     {
-      "company_name": "RENZARA CREATIVE LTD",
-      "company_number": "17144934",
+      "company_name": "OPTIMUM PROCUREMENT LTD",
+      "company_number": "17208509",
       "company_status": "active",
       "company_type": "ltd",
       "kind": "search-results#company",
       "links": {
-        "company_profile": "/company/17144934"
+        "company_profile": "/company/17208509"
       },
-      "date_of_creation": "2026-04-08",
+      "date_of_creation": "2026-05-09",
+      "registered_office_address": {
+        "address_line_1": "181 Chingford Road",
+        "locality": "London",
+        "postal_code": "E17 4PN",
+        "country": "England"
+      },
+      "sic_codes": [
+        "70221"
+      ],
+      "director_name": "Dumitru Octavian Brinza",
+      "director_appointed": "2026-05-09"
+    },
+    {
+      "company_name": "MRG HOLDINGS GROUP LTD",
+      "company_number": "17208502",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17208502"
+      },
+      "date_of_creation": "2026-05-09",
+      "registered_office_address": {
+        "address_line_1": "11 The Crofts",
+        "locality": "Rotherham",
+        "postal_code": "S60 2DJ",
+        "country": "England"
+      },
+      "sic_codes": [
+        "64209"
+      ],
+      "director_name": "Joseph Grech",
+      "director_appointed": "2026-05-09"
+    },
+    {
+      "company_name": "MOONI SOLUTIONS LTD",
+      "company_number": "17208519",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17208519"
+      },
+      "date_of_creation": "2026-05-09",
+      "registered_office_address": {
+        "address_line_1": "204 Bromyard Avenue",
+        "locality": "London",
+        "postal_code": "W3 7FN",
+        "country": "England"
+      },
+      "sic_codes": [
+        "62012"
+      ],
+      "director_name": "Ahmed Hamedi",
+      "director_appointed": "2026-05-09"
+    },
+    {
+      "company_name": "BALL-CRAFT ACADEMY LIMITED",
+      "company_number": "17208521",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17208521"
+      },
+      "date_of_creation": "2026-05-09",
+      "registered_office_address": {
+        "address_line_1": "6 Bernards Court",
+        "address_line_2": "Ellison Road",
+        "locality": "Sidcup",
+        "postal_code": "DA15 8BP",
+        "country": "England"
+      },
+      "sic_codes": [
+        "93120"
+      ],
+      "director_name": "Harry James Mccarron",
+      "director_appointed": "2026-05-09"
+    },
+    {
+      "company_name": "GREENAGE CLEANING SERVICES LTD",
+      "company_number": "17208621",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17208621"
+      },
+      "date_of_creation": "2026-05-09",
+      "registered_office_address": {
+        "address_line_1": "5 Edge Street",
+        "locality": "Aylesbury",
+        "postal_code": "HP19 8FS",
+        "country": "England"
+      },
+      "sic_codes": [
+        "81210",
+        "81299"
+      ],
+      "director_name": "Nikhil Emmanuel",
+      "director_appointed": "2026-05-09"
+    },
+    {
+      "company_name": "GOONBOYCRYPTO LTD",
+      "company_number": "17208620",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17208620"
+      },
+      "date_of_creation": "2026-05-09",
       "registered_office_address": {
         "address_line_1": "66 Paul Street",
         "locality": "London",
@@ -270,805 +227,960 @@
         "country": "United Kingdom"
       },
       "sic_codes": [
-        "59112",
-        "73110"
-      ]
+        "58290"
+      ],
+      "director_name": "Liam Jay Inwood",
+      "director_appointed": "2026-05-09"
     },
     {
-      "company_name": "CS SURVEILLANCE LTD",
-      "company_number": "17144992",
+      "company_name": "AURA LONDON VENTURES LTD",
+      "company_number": "17208626",
       "company_status": "active",
       "company_type": "ltd",
       "kind": "search-results#company",
       "links": {
-        "company_profile": "/company/17144992"
+        "company_profile": "/company/17208626"
       },
-      "date_of_creation": "2026-04-08",
+      "date_of_creation": "2026-05-09",
       "registered_office_address": {
-        "address_line_1": "17 Wendron Grove",
-        "locality": "Birmingham",
-        "postal_code": "B14 6LL",
+        "address_line_1": "15 Dunvegan Road",
+        "locality": "London",
+        "postal_code": "SE9 1RZ",
         "country": "England"
       },
       "sic_codes": [
-        "80200"
-      ]
+        "93290"
+      ],
+      "director_name": "Rakaua Tishutanu Obiora Simon",
+      "director_appointed": "2026-05-09"
     },
     {
-      "company_name": "DW DRYLINING LIMITED",
-      "company_number": "17145190",
+      "company_name": "SNOW LEOPARD 804 LTD",
+      "company_number": "17208614",
       "company_status": "active",
       "company_type": "ltd",
       "kind": "search-results#company",
       "links": {
-        "company_profile": "/company/17145190"
+        "company_profile": "/company/17208614"
       },
-      "date_of_creation": "2026-04-09",
+      "date_of_creation": "2026-05-09",
       "registered_office_address": {
-        "address_line_1": "Unit 4 36 William Prance Road",
-        "address_line_2": "Derriford",
-        "locality": "Plymouth",
-        "postal_code": "PL6 5WR",
+        "address_line_1": "14 Leyland Avenue",
+        "address_line_2": "Gatley",
+        "locality": "Cheadle",
+        "postal_code": "SK8 4AF",
         "country": "England"
       },
       "sic_codes": [
-        "41201",
-        "41202"
-      ]
+        "68100",
+        "68209"
+      ],
+      "director_name": "Bilal, Dr. Hameed",
+      "director_appointed": "2026-05-09"
     },
     {
-      "company_name": "D&G PROCUREMENT SERVICES LTD",
-      "company_number": "17145186",
+      "company_name": "HAIQAH LONDON LIMITED",
+      "company_number": "17208721",
       "company_status": "active",
       "company_type": "ltd",
       "kind": "search-results#company",
       "links": {
-        "company_profile": "/company/17145186"
+        "company_profile": "/company/17208721"
       },
-      "date_of_creation": "2026-04-09",
+      "date_of_creation": "2026-05-09",
       "registered_office_address": {
-        "address_line_1": "45 Moat Lane",
-        "locality": "Towcester",
-        "postal_code": "NN12 6AD",
+        "address_line_1": "23a Randal Street",
+        "locality": "Blackburn",
+        "postal_code": "BB1 7HP",
+        "country": "United Kingdom"
+      },
+      "sic_codes": [
+        "96090"
+      ],
+      "director_name": "Naveed Aslam",
+      "director_appointed": "2026-05-09"
+    },
+    {
+      "company_name": "CPR CONSULTANTS LTD",
+      "company_number": "17208733",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17208733"
+      },
+      "date_of_creation": "2026-05-09",
+      "registered_office_address": {
+        "address_line_1": "Apartment 31, Throwsters Court",
+        "address_line_2": "Maydews Passage",
+        "locality": "Macclesfield",
+        "postal_code": "SK11 7GZ",
+        "country": "United Kingdom"
+      },
+      "sic_codes": [
+        "82110"
+      ],
+      "director_name": "Storm David Peter Robertson",
+      "director_appointed": "2026-05-09"
+    },
+    {
+      "company_name": "SHELTONSYSTEMS LTD",
+      "company_number": "17208725",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17208725"
+      },
+      "date_of_creation": "2026-05-09",
+      "registered_office_address": {
+        "address_line_1": "Unit A",
+        "address_line_2": "82 James Carter Road",
+        "locality": "Bury St. Edmunds",
+        "postal_code": "IP28 7DE",
+        "country": "United Kingdom"
+      },
+      "sic_codes": [
+        "62012",
+        "62020",
+        "62090",
+        "63110"
+      ],
+      "director_name": "Caleb Luke Shelton",
+      "director_appointed": "2026-05-09"
+    },
+    {
+      "company_name": "HOLDINGS ELEVEN ELEVEN LTD",
+      "company_number": "17208723",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17208723"
+      },
+      "date_of_creation": "2026-05-09",
+      "registered_office_address": {
+        "address_line_1": "117 Glanmor Road",
+        "address_line_2": "Sketty",
+        "locality": "Swansea",
+        "postal_code": "SA2 0RN",
+        "country": "Wales"
+      },
+      "sic_codes": [
+        "64209"
+      ],
+      "director_name": "Jodie Grove",
+      "director_appointed": "2026-05-09"
+    },
+    {
+      "company_name": "PAYEZ LTD",
+      "company_number": "17208785",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17208785"
+      },
+      "date_of_creation": "2026-05-09",
+      "registered_office_address": {
+        "address_line_1": "47 Benington Road",
+        "address_line_2": "Aston",
+        "locality": "Stevenage",
+        "postal_code": "SG2 7DY",
         "country": "England"
       },
       "sic_codes": [
-        "70229",
+        "62090"
+      ],
+      "director_name": "Nicholas Peter John Flint",
+      "director_appointed": "2026-05-09"
+    },
+    {
+      "company_name": "YAAYAA SISTERS HAIR DERESSING LITED LIMITED",
+      "company_number": "17208782",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17208782"
+      },
+      "date_of_creation": "2026-05-09",
+      "registered_office_address": {
+        "address_line_1": "187 Streatham High Road",
+        "locality": "London",
+        "postal_code": "SW16 6EG",
+        "country": "England"
+      },
+      "sic_codes": [
+        "96020"
+      ],
+      "director_name": "Sara Mohamed Adow",
+      "director_appointed": "2026-05-09"
+    },
+    {
+      "company_name": "PROPLINKER LTD",
+      "company_number": "SC889050",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/SC889050"
+      },
+      "date_of_creation": "2026-05-09",
+      "registered_office_address": {
+        "address_line_1": "1 Orchard House",
+        "address_line_2": "Orchard Grove",
+        "locality": "Leven",
+        "postal_code": "KY8 5XA",
+        "country": "Scotland"
+      },
+      "sic_codes": [
+        "62012"
+      ],
+      "director_name": "Karina Joanna Lavin",
+      "director_appointed": "2026-05-09"
+    },
+    {
+      "company_name": "UNIVERSAL EDUCATION CONNECT LTD",
+      "company_number": "17208783",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17208783"
+      },
+      "date_of_creation": "2026-05-09",
+      "registered_office_address": {
+        "address_line_1": "115 Yorkland Avenue",
+        "locality": "Welling",
+        "postal_code": "DA16 2LQ",
+        "country": "England"
+      },
+      "sic_codes": [
         "82990"
-      ]
+      ],
+      "director_name": "Vinaya Adhikari",
+      "director_appointed": "2026-05-09"
     },
     {
-      "company_name": "SHIRE COMMERCE LTD",
-      "company_number": "17145184",
+      "company_name": "ALLROVIA LTD",
+      "company_number": "17208886",
       "company_status": "active",
       "company_type": "ltd",
       "kind": "search-results#company",
       "links": {
-        "company_profile": "/company/17145184"
+        "company_profile": "/company/17208886"
       },
-      "date_of_creation": "2026-04-09",
+      "date_of_creation": "2026-05-10",
       "registered_office_address": {
-        "address_line_1": "24 Pineview",
-        "locality": "Birmingham",
-        "postal_code": "B312RD",
+        "address_line_1": "66 Paul Street",
+        "locality": "London",
+        "postal_code": "EC2A 4NA",
+        "region": "England",
+        "country": "United Kingdom"
+      },
+      "sic_codes": [
+        "45111",
+        "45112",
+        "45190",
+        "45400"
+      ],
+      "director_name": "Klejdi Jasiqi",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "ARYA INFINITY LTD",
+      "company_number": "17208975",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17208975"
+      },
+      "date_of_creation": "2026-05-10",
+      "registered_office_address": {
+        "address_line_1": "30 Harvey Road",
+        "address_line_2": "Whitton",
+        "locality": "Hounslow",
+        "postal_code": "TW4 5LU",
+        "country": "England"
+      },
+      "sic_codes": [
+        "62012"
+      ],
+      "director_name": "Santosh Shrikrishna Wast",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "DRM INTERIM CONSULTANT SERVICES LTD",
+      "company_number": "17208972",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17208972"
+      },
+      "date_of_creation": "2026-05-10",
+      "registered_office_address": {
+        "address_line_1": "4 St. Marys Gardens",
+        "locality": "Spalding",
+        "postal_code": "PE12 9DU",
+        "country": "United Kingdom"
+      },
+      "sic_codes": [
+        "70229"
+      ],
+      "director_name": "Daniel Richard Morrison",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "DAUGHTERS OF KHADIJAH LIMITED",
+      "company_number": "17208970",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17208970"
+      },
+      "date_of_creation": "2026-05-10",
+      "registered_office_address": {
+        "address_line_1": "167 Blackmoor Gate",
+        "locality": "Milton Keynes",
+        "postal_code": "MK4 1DW",
+        "country": "United Kingdom"
+      },
+      "sic_codes": [
+        "96090"
+      ],
+      "director_name": "Irram Malik Javaid",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "HOLMBROOK PROPERTIES LIMITED",
+      "company_number": "17208968",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17208968"
+      },
+      "date_of_creation": "2026-05-10",
+      "registered_office_address": {
+        "address_line_1": "36 Morley Road",
+        "locality": "Basingstoke",
+        "postal_code": "RG21 3LW",
+        "country": "England"
+      },
+      "sic_codes": [
+        "68100"
+      ],
+      "director_name": "Nicola Holmes",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "APD SYSTEM LIMITED",
+      "company_number": "17208971",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17208971"
+      },
+      "date_of_creation": "2026-05-10",
+      "registered_office_address": {
+        "address_line_1": "22 Primley Park Road",
+        "locality": "Leeds",
+        "postal_code": "LS17 7HS",
+        "country": "England"
+      },
+      "sic_codes": [
+        "62020",
+        "62090"
+      ],
+      "director_name": "Ajai Sirohi",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "KATHMANDU MOMO LTD",
+      "company_number": "17209003",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17209003"
+      },
+      "date_of_creation": "2026-05-10",
+      "registered_office_address": {
+        "address_line_1": "142 Linthorpe Road",
+        "locality": "Middlesbrough",
+        "postal_code": "TS1 3RA",
+        "country": "England"
+      },
+      "sic_codes": [
+        "56103"
+      ],
+      "director_name": "Upasana, Mrs. Basnet",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "WS GLOBAL LIMITED",
+      "company_number": "17209017",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17209017"
+      },
+      "date_of_creation": "2026-05-10",
+      "registered_office_address": {
+        "address_line_1": "Produce Exchange Building",
+        "address_line_2": "8 Victoria Street",
+        "locality": "Liverpool",
+        "postal_code": "L2 6QJ",
+        "country": "England"
+      },
+      "sic_codes": [
+        "58190",
+        "63120",
+        "73120",
+        "82301"
+      ],
+      "director_name": "Sidra Nasir",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "MASF RETAIL LTD",
+      "company_number": "17209004",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17209004"
+      },
+      "date_of_creation": "2026-05-10",
+      "registered_office_address": {
+        "address_line_1": "5 Blenheim Close",
+        "address_line_2": "Hadfield",
+        "locality": "Glossop",
+        "postal_code": "SK13 1QY",
+        "country": "England"
+      },
+      "sic_codes": [
+        "47910"
+      ],
+      "director_name": "Matthew Alexander Stead",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "GRAND CAFE 241 LTD",
+      "company_number": "17209006",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17209006"
+      },
+      "date_of_creation": "2026-05-10",
+      "registered_office_address": {
+        "address_line_1": "11 Portland Road",
+        "locality": "London",
+        "postal_code": "SE25 4UF",
+        "country": "England"
+      },
+      "sic_codes": [
+        "56102"
+      ],
+      "director_name": "Defrim Hajdari",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "VITAGLOW LIMITED",
+      "company_number": "17209057",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17209057"
+      },
+      "date_of_creation": "2026-05-10",
+      "registered_office_address": {
+        "address_line_1": "11 Grange Gardens",
+        "locality": "Ledbury",
+        "postal_code": "HR8 1FG",
         "country": "United Kingdom"
       },
       "sic_codes": [
         "47910",
-        "62012"
-      ]
+        "47990"
+      ],
+      "director_name": "Siriluk Chaichana",
+      "director_appointed": "2026-05-10"
     },
     {
-      "company_name": "PROVERBS 163 CLEANING SERVICES LTD",
-      "company_number": "17145227",
+      "company_name": "GILLMER ADVISORY LTD",
+      "company_number": "17209065",
       "company_status": "active",
       "company_type": "ltd",
       "kind": "search-results#company",
       "links": {
-        "company_profile": "/company/17145227"
+        "company_profile": "/company/17209065"
       },
-      "date_of_creation": "2026-04-09",
+      "date_of_creation": "2026-05-10",
       "registered_office_address": {
-        "address_line_1": "Flat 4 Carlton Court",
-        "address_line_2": "Bell Street",
-        "locality": "Princes Risborough",
-        "postal_code": "HP27 0DQ",
+        "address_line_1": "35 Broadfield Road",
+        "locality": "London",
+        "postal_code": "SE6 1ND",
+        "country": "England"
+      },
+      "sic_codes": [
+        "62012"
+      ],
+      "director_name": "Gareth Gillmer",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "A AWAN CONSULTANCY SERVICES LTD",
+      "company_number": "17209059",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17209059"
+      },
+      "date_of_creation": "2026-05-10",
+      "registered_office_address": {
+        "address_line_1": "40 Hadrian Walk East",
+        "locality": "Reading",
+        "postal_code": "RG2 7TZ",
+        "country": "United Kingdom"
+      },
+      "sic_codes": [
+        "42220"
+      ],
+      "director_name": "Adnan Ahmad Sami Awan",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "SOFT HAVEN UPHOLSTERY LIMITED",
+      "company_number": "17209240",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17209240"
+      },
+      "date_of_creation": "2026-05-10",
+      "registered_office_address": {
+        "address_line_1": "Unit 2 Hargreaves Street",
+        "locality": "Colne",
+        "postal_code": "BB8 9PB",
+        "country": "United Kingdom"
+      },
+      "sic_codes": [
+        "13921",
+        "31090"
+      ],
+      "director_name": "Muhammad Abdul Rehman",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "LOCHRISTI LTD",
+      "company_number": "17209237",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17209237"
+      },
+      "date_of_creation": "2026-05-10",
+      "registered_office_address": {
+        "address_line_1": "8 Shepherd Market",
+        "address_line_2": "Suite 173",
+        "locality": "London",
+        "postal_code": "W1J 7JY",
+        "country": "England"
+      },
+      "sic_codes": [
+        "41202",
+        "74909"
+      ],
+      "director_name": "Martin William Philip De Backer",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "SALS CLOTHING LTD",
+      "company_number": "17209236",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17209236"
+      },
+      "date_of_creation": "2026-05-10",
+      "registered_office_address": {
+        "address_line_1": "34a Penrhiwceiber Road",
+        "locality": "Mountain Ash",
+        "postal_code": "CF45 3SP",
+        "country": "Wales"
+      },
+      "sic_codes": [
+        "47710"
+      ],
+      "director_name": "Shane Alan Trythall",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "LL CONSULTANTS LTD",
+      "company_number": "17209238",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17209238"
+      },
+      "date_of_creation": "2026-05-10",
+      "registered_office_address": {
+        "address_line_1": "6 Elsted Road",
+        "locality": "Oldham",
+        "postal_code": "OL3 7LL",
+        "country": "United Kingdom"
+      },
+      "sic_codes": [
+        "70229"
+      ],
+      "director_name": "Laura Leigh Elkington",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "JM FAM (UK) LIMITED",
+      "company_number": "17209239",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17209239"
+      },
+      "date_of_creation": "2026-05-10",
+      "registered_office_address": {
+        "address_line_1": "34 Spey Court",
+        "locality": "Andover",
+        "postal_code": "SP10 5HA",
+        "country": "United Kingdom"
+      },
+      "sic_codes": [
+        "47910",
+        "70229"
+      ],
+      "director_name": "Zeeshan Haider Kazmi",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "CONNECTED COMPANION PET CARE LTD",
+      "company_number": "17209231",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17209231"
+      },
+      "date_of_creation": "2026-05-10",
+      "registered_office_address": {
+        "address_line_1": "45 Iddesleigh Road",
+        "locality": "Bournemouth",
+        "postal_code": "BH3 7NQ",
+        "country": "England"
+      },
+      "sic_codes": [
+        "96090"
+      ],
+      "director_name": "Fay Emily Ann Burwell",
+      "director_appointed": "2026-05-10"
+    },
+    {
+      "company_name": "BGR GROUP LTD",
+      "company_number": "17209279",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17209279"
+      },
+      "date_of_creation": "2026-05-11",
+      "registered_office_address": {
+        "address_line_1": "367 Hanworth Road",
+        "locality": "Hounslow",
+        "postal_code": "TW4 5LF",
+        "country": "United Kingdom"
+      },
+      "sic_codes": [
+        "56290"
+      ],
+      "director_name": "Harun Hussain",
+      "director_appointed": "2026-05-11"
+    },
+    {
+      "company_name": "BAMBERS REMOVALS LIMITED",
+      "company_number": "17209310",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17209310"
+      },
+      "date_of_creation": "2026-05-11",
+      "registered_office_address": {
+        "address_line_1": "Black Bull House 353-355 Station Road",
+        "address_line_2": "Bamber Bridge",
+        "locality": "Preston",
+        "postal_code": "PR5 6EE",
+        "region": "Lancashire",
+        "country": "United Kingdom"
+      },
+      "sic_codes": [
+        "49420"
+      ],
+      "director_name": "Benjamin John Francis Bamber",
+      "director_appointed": "2026-05-11"
+    },
+    {
+      "company_name": "CLEANIX SOLUTIONS CIC",
+      "company_number": "17209300",
+      "company_status": "active",
+      "company_type": "ltd",
+      "company_subtype": "community-interest-company",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17209300"
+      },
+      "date_of_creation": "2026-05-11",
+      "registered_office_address": {
+        "address_line_1": "1 Duncan Street",
+        "locality": "Salford",
+        "postal_code": "M7 2FU",
         "country": "England"
       },
       "sic_codes": [
         "81210"
-      ]
+      ],
+      "director_name": "Alexandru Golis",
+      "director_appointed": "2026-05-11"
     },
     {
-      "company_name": "HOMES FOR UK LIMITED",
-      "company_number": "17145226",
+      "company_name": "HOJA LTD",
+      "company_number": "17209308",
       "company_status": "active",
       "company_type": "ltd",
       "kind": "search-results#company",
       "links": {
-        "company_profile": "/company/17145226"
+        "company_profile": "/company/17209308"
       },
-      "date_of_creation": "2026-04-09",
+      "date_of_creation": "2026-05-11",
       "registered_office_address": {
-        "address_line_1": "50 Woodgate",
-        "locality": "Leicester",
-        "postal_code": "LE3 5GF",
-        "country": "England"
+        "address_line_1": "New Orchard",
+        "address_line_2": "Bottom Lane",
+        "locality": "Romsey",
+        "postal_code": "SO51 6EZ",
+        "country": "United Kingdom"
+      },
+      "sic_codes": [
+        "10831",
+        "47910"
+      ],
+      "director_name": "James Alexander Cooper",
+      "director_appointed": "2026-05-11"
+    },
+    {
+      "company_name": "FRANCESCA ESTATES LTD",
+      "company_number": "17209517",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17209517"
+      },
+      "date_of_creation": "2026-05-11",
+      "registered_office_address": {
+        "address_line_1": "5, Hatfield Gardens",
+        "address_line_2": "Sunderland",
+        "locality": "Tyne And Wear",
+        "postal_code": "SR3 1UG",
+        "country": "United Kingdom"
+      },
+      "sic_codes": [
+        "68320"
+      ],
+      "director_name": "Michael Andrew Lane",
+      "director_appointed": "2026-05-11"
+    },
+    {
+      "company_name": "ALOC HOLDINGS LTD",
+      "company_number": "17209519",
+      "company_status": "active",
+      "company_type": "ltd",
+      "kind": "search-results#company",
+      "links": {
+        "company_profile": "/company/17209519"
+      },
+      "date_of_creation": "2026-05-11",
+      "registered_office_address": {
+        "address_line_1": "109 Slade Road",
+        "locality": "High Wycombe",
+        "postal_code": "HP14 3PX",
+        "country": "United Kingdom"
       },
       "sic_codes": [
         "68209"
-      ]
+      ],
+      "director_name": "Philip William Rix",
+      "director_appointed": "2026-05-11"
     },
     {
-      "company_name": "AEROELITE COLLEGE LTD",
-      "company_number": "17145218",
+      "company_name": "TEENIE & STAMS PROPERTIES LTD",
+      "company_number": "SC889097",
       "company_status": "active",
       "company_type": "ltd",
       "kind": "search-results#company",
       "links": {
-        "company_profile": "/company/17145218"
+        "company_profile": "/company/SC889097"
       },
-      "date_of_creation": "2026-04-09",
+      "date_of_creation": "2026-05-11",
       "registered_office_address": {
-        "address_line_1": "Unit 82a James Carter Road",
-        "address_line_2": "Mildenhall",
-        "locality": "Bury St. Edmunds",
-        "postal_code": "IP28 7DE",
-        "country": "England"
+        "address_line_1": "Crossfields",
+        "address_line_2": "Croft",
+        "locality": "Turriff",
+        "postal_code": "AB53 5PG",
+        "region": "Aberdeenshire",
+        "country": "Scotland"
       },
       "sic_codes": [
-        "85310",
-        "85320",
-        "85421",
-        "85422"
-      ]
+        "68100",
+        "68209",
+        "68320",
+        "98000"
+      ],
+      "director_name": "Christine Marie Hosie",
+      "director_appointed": "2026-05-11"
     },
     {
-      "company_name": "SILK YARN LTD",
-      "company_number": "17145219",
+      "company_name": "LICARI CARE LTD",
+      "company_number": "SC889098",
       "company_status": "active",
       "company_type": "ltd",
       "kind": "search-results#company",
       "links": {
-        "company_profile": "/company/17145219"
+        "company_profile": "/company/SC889098"
       },
-      "date_of_creation": "2026-04-09",
+      "date_of_creation": "2026-05-11",
       "registered_office_address": {
-        "address_line_1": "The Groundwork Enviroment Centre",
-        "address_line_2": "Shaw Road",
-        "locality": "Oldam",
-        "postal_code": "OL14 4AW",
-        "country": "United Kingdom"
+        "address_line_1": "6th Floor Gordon Chambers",
+        "address_line_2": "90 Mitchell Street",
+        "locality": "Glasgow",
+        "postal_code": "G1 3NQ",
+        "region": "Lanarkshire",
+        "country": "Scotland"
       },
       "sic_codes": [
-        "13910"
-      ]
+        "86220"
+      ],
+      "director_name": "Oliver, Dr Licari",
+      "director_appointed": "2026-05-11"
     },
     {
-      "company_name": "BRASA LIMITED",
-      "company_number": "17145213",
+      "company_name": "PIPELINE HOMES LTD",
+      "company_number": "17209636",
       "company_status": "active",
       "company_type": "ltd",
       "kind": "search-results#company",
       "links": {
-        "company_profile": "/company/17145213"
+        "company_profile": "/company/17209636"
       },
-      "date_of_creation": "2026-04-09",
+      "date_of_creation": "2026-05-11",
       "registered_office_address": {
-        "address_line_1": "1-2 Station Avenue",
-        "locality": "Chirk",
-        "postal_code": "LL14 5LS",
-        "region": "Wrexham",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "56101"
-      ]
-    },
-    {
-      "company_name": "WUNDERSTOCK LIMITED",
-      "company_number": "17145215",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145215"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "82a James Carter Road",
-        "locality": "Mildenhall",
-        "postal_code": "IP28 7DE",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "46900"
-      ]
-    },
-    {
-      "company_name": "EQUANIM LABS LTD",
-      "company_number": "17145230",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145230"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "Suite Ra01 195-197 Wood Street",
+        "address_line_1": "17 Green Lanes",
         "locality": "London",
-        "postal_code": "E17 3NU",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "62012"
-      ]
-    },
-    {
-      "company_name": "AS JOINERY & MAINTENANCE LTD",
-      "company_number": "17145280",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145280"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "13 Albatross Way",
-        "address_line_2": "Windmill Park",
-        "locality": "Ashington",
-        "postal_code": "NE63 9WW",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "43320"
-      ]
-    },
-    {
-      "company_name": "REDROAD STUDIOS LIMITED",
-      "company_number": "17145281",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145281"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "124 City Road",
-        "locality": "London",
-        "postal_code": "EC1V 2NX",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "59112",
-        "73110",
-        "74201",
-        "74209"
-      ]
-    },
-    {
-      "company_name": "HEXAGON METALWORKS LIMITED",
-      "company_number": "NI739606",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/NI739606"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "Unit 3 59 Snugville Street",
-        "locality": "Belfast",
-        "postal_code": "BT13 1ND",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "25990"
-      ]
-    },
-    {
-      "company_name": "THE SHALU GROUP LTD",
-      "company_number": "17145283",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145283"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "Harrow House",
-        "address_line_2": "Bessemer Road",
-        "locality": "Basingstoke",
-        "postal_code": "RG21 3NB",
-        "country": "England"
-      },
-      "sic_codes": [
-        "46342",
-        "46360"
-      ]
-    },
-    {
-      "company_name": "RASSO INVESTMENTS LTD",
-      "company_number": "17145289",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145289"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "C/O Roseworth Limited",
-        "address_line_2": "662 High Road",
-        "locality": "London",
-        "postal_code": "N12 0NL",
-        "region": "Greater London",
+        "postal_code": "N16 9BS",
         "country": "United Kingdom"
       },
       "sic_codes": [
         "68100",
         "68209"
-      ]
+      ],
+      "director_name": "Baran Ipek",
+      "director_appointed": "2026-05-11"
     },
     {
-      "company_name": "STETSONPUBCO LTD",
-      "company_number": "17145292",
+      "company_name": "FGN FOUNDATION CIC",
+      "company_number": "17209637",
       "company_status": "active",
-      "company_type": "ltd",
+      "company_type": "private-limited-guarant-nsc",
+      "company_subtype": "community-interest-company",
       "kind": "search-results#company",
       "links": {
-        "company_profile": "/company/17145292"
+        "company_profile": "/company/17209637"
       },
-      "date_of_creation": "2026-04-09",
+      "date_of_creation": "2026-05-11",
       "registered_office_address": {
-        "address_line_1": "38 Oak Road",
-        "locality": "Walsall",
-        "postal_code": "WS4 1RQ",
-        "country": "England"
-      },
-      "sic_codes": [
-        "56302"
-      ]
-    },
-    {
-      "company_name": "LAN TING BFS LTD",
-      "company_number": "NI739607",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/NI739607"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "12 Charlestown Hall Drive",
-        "locality": "Lisburn",
-        "postal_code": "BT28 0AF",
-        "country": "Northern Ireland"
-      },
-      "sic_codes": [
-        "56102"
-      ]
-    },
-    {
-      "company_name": "TAPERZONE LTD",
-      "company_number": "17145291",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145291"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "75 Queensway",
-        "address_line_2": "Caversham",
-        "locality": "Reading",
-        "postal_code": "RG4 6SJ",
-        "country": "England"
-      },
-      "sic_codes": [
-        "62012"
-      ]
-    },
-    {
-      "company_name": "RFD ADVISORY LTD",
-      "company_number": "17145286",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145286"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "320 Firecrest Court",
-        "locality": "Warrington",
-        "postal_code": "WA1 1RG",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "82990"
-      ]
-    },
-    {
-      "company_name": "VOLTD CHARGING LTD",
-      "company_number": "17145336",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145336"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "71-75 Shelton Street",
-        "address_line_2": "Covent Garden",
+        "address_line_1": "24 Fitzroy Square",
         "locality": "London",
-        "postal_code": "WC2H 9JQ",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "47990",
-        "77291",
-        "82990"
-      ]
-    },
-    {
-      "company_name": "MOE'S GRILL LTD",
-      "company_number": "17145337",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145337"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "92 High Street",
-        "locality": "London",
-        "postal_code": "E13 0AJ",
+        "postal_code": "W1T 6EP",
         "country": "England"
       },
       "sic_codes": [
-        "56102",
-        "56103"
-      ]
+        "85520",
+        "90020",
+        "90030",
+        "90040"
+      ],
+      "director_name": "Francesco Giuseppe Noto",
+      "director_appointed": "2026-05-11"
     },
     {
-      "company_name": "TC CLEANING LAB LTD",
-      "company_number": "17145341",
+      "company_name": "GRACEFULLY RISING CIC",
+      "company_number": "17209642",
       "company_status": "active",
-      "company_type": "ltd",
+      "company_type": "private-limited-guarant-nsc",
+      "company_subtype": "community-interest-company",
       "kind": "search-results#company",
       "links": {
-        "company_profile": "/company/17145341"
+        "company_profile": "/company/17209642"
       },
-      "date_of_creation": "2026-04-09",
+      "date_of_creation": "2026-05-11",
       "registered_office_address": {
-        "address_line_1": "28 Lockier Walk",
-        "locality": "Wembley",
-        "postal_code": "HA9 7TW",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "81229"
-      ]
-    },
-    {
-      "company_name": "ADZA PROPERTIES LIMITED",
-      "company_number": "17145335",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145335"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "46 New Broad Street",
-        "locality": "London",
-        "postal_code": "EC2M 1JH",
+        "address_line_1": "1 Clarence Road",
+        "address_line_2": "Enderby",
+        "locality": "Leicester",
+        "postal_code": "LE19 2BB",
         "country": "England"
       },
       "sic_codes": [
-        "55209",
-        "68209"
-      ]
+        "88990"
+      ],
+      "director_name": "Maria Helena Mendes Moreira",
+      "director_appointed": "2026-05-11"
     },
     {
-      "company_name": "ALL SERVICES 4U-LOCKSMITH NORTH LONDON LIMITED",
-      "company_number": "17145333",
+      "company_name": "KENDAL LOCAL STORE LTD",
+      "company_number": "17209643",
       "company_status": "active",
       "company_type": "ltd",
       "kind": "search-results#company",
       "links": {
-        "company_profile": "/company/17145333"
+        "company_profile": "/company/17209643"
       },
-      "date_of_creation": "2026-04-09",
+      "date_of_creation": "2026-05-11",
       "registered_office_address": {
-        "address_line_1": "Building 3 Oakleigh Road South",
-        "locality": "London",
-        "postal_code": "N11 1GN",
+        "address_line_1": "70 Stramongate",
+        "locality": "Kendal",
+        "postal_code": "LA9 4BD",
         "country": "England"
       },
       "sic_codes": [
-        "80200"
-      ]
-    },
-    {
-      "company_name": "ALL SERVICES 4U - LOCKSMITH MANCHESTER LIMITED",
-      "company_number": "17145326",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145326"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "Building 3 Oakleigh Road South",
-        "locality": "London",
-        "postal_code": "N11 1GN",
-        "country": "England"
-      },
-      "sic_codes": [
-        "80200"
-      ]
-    },
-    {
-      "company_name": "BLUE RIVER EVENTS LTD",
-      "company_number": "17145323",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145323"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "24 Akeman Close",
-        "locality": "Morecambe",
-        "postal_code": "LA3 3BP",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "82301"
-      ]
-    },
-    {
-      "company_name": "SWIFTBIRD PRIVATE LIMITED",
-      "company_number": "17145338",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145338"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "1 Devon Grove",
-        "locality": "Coventry",
-        "postal_code": "CV2 3HZ",
-        "country": "England"
-      },
-      "sic_codes": [
-        "47910"
-      ]
-    },
-    {
-      "company_name": "LOUISE CARTER AESTHETICS LIMITED",
-      "company_number": "17145399",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145399"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "140 Coniscliffe Road",
-        "locality": "Darlington",
-        "postal_code": "DL3 7RT",
-        "region": "County Durham",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "96020"
-      ]
-    },
-    {
-      "company_name": "FERNYHOUGH DESIGN SERVICES LTD",
-      "company_number": "17145401",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145401"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "76 Birchmoor Road",
-        "address_line_2": "Birchmoor",
-        "locality": "Tamworth",
-        "postal_code": "B78 1AB",
-        "country": "England"
-      },
-      "sic_codes": [
-        "74100"
-      ]
-    },
-    {
-      "company_name": "PRIMEBOXINGANDFITNESS LTD",
-      "company_number": "17145410",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145410"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "Unit 5a Stoneacre",
-        "address_line_2": "Grimbald Crag Close",
-        "locality": "Knaresborough",
-        "postal_code": "HG5 8PJ",
-        "country": "England"
-      },
-      "sic_codes": [
-        "93130"
-      ]
-    },
-    {
-      "company_name": "TRAILMIND LTD",
-      "company_number": "17145408",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145408"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "Unit A",
-        "address_line_2": "82 James Carter Road",
-        "locality": "Mildenhall",
-        "postal_code": "IP28 7DE",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "84120"
-      ]
-    },
-    {
-      "company_name": "RAQAM LTD",
-      "company_number": "17145501",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145501"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "Unit 2, Mts House",
-        "address_line_2": "Belper Road",
-        "locality": "Stockport",
-        "postal_code": "SK4 3QW",
-        "country": "England"
-      },
-      "sic_codes": [
-        "62012",
-        "62020",
-        "64999"
-      ]
-    },
-    {
-      "company_name": "NOAKES BESPOKE INTERIORS LIMITED",
-      "company_number": "17145471",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145471"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "Unit A",
-        "address_line_2": "82 James Carter Road",
-        "locality": "Mildenhall",
-        "postal_code": "IP28 7DE",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "43320"
-      ]
-    },
-    {
-      "company_name": "ZELENZA LTD",
-      "company_number": "17145481",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145481"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "82 Bentry Road",
-        "locality": "Dagenham",
-        "postal_code": "RM8 3PP",
-        "country": "England"
-      },
-      "sic_codes": [
-        "47910"
-      ]
-    },
-    {
-      "company_name": "ARIF AZAD SKT LTD",
-      "company_number": "17145482",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145482"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "46 Quinbrookes",
-        "locality": "Slough",
-        "postal_code": "SL2 5RU",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "49100"
-      ]
-    },
-    {
-      "company_name": "STA2TONE LTD",
-      "company_number": "17145477",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145477"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "Flat 3 16 Lemsford Road",
-        "locality": "St. Albans",
-        "postal_code": "AL1 3PB",
-        "country": "England"
-      },
-      "sic_codes": [
-        "71122"
-      ]
-    },
-    {
-      "company_name": "ACTUAL ARTICLE LTD",
-      "company_number": "17145498",
-      "company_status": "active",
-      "company_type": "ltd",
-      "kind": "search-results#company",
-      "links": {
-        "company_profile": "/company/17145498"
-      },
-      "date_of_creation": "2026-04-09",
-      "registered_office_address": {
-        "address_line_1": "61 Bridge Street",
-        "locality": "Kington",
-        "postal_code": "HR5 3DJ",
-        "country": "United Kingdom"
-      },
-      "sic_codes": [
-        "47910"
-      ]
+        "47190"
+      ],
+      "director_name": "Ayub Azizi",
+      "director_appointed": "2026-05-11"
     }
   ],
   "kind": "search#advanced-search",
-  "hits": 67804
+  "hits": 61846
 }

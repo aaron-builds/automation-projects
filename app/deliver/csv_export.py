@@ -15,6 +15,8 @@ COLUMNS = [
     "score",
     "band",
     "score_reasons",
+    "director_name",
+    "director_appointed",
     "why_it_matters",
     "suggested_outreach_line",
 ]
@@ -27,6 +29,8 @@ COLUMN_LABELS = {
     "score": "Lead Score",
     "band": "Priority",
     "score_reasons": "Why This Lead",
+    "director_name": "Director Name",
+    "director_appointed": "Director Appointed",
     "why_it_matters": "Opportunity",
     "suggested_outreach_line": "Suggested Outreach",
 }
@@ -64,46 +68,56 @@ def build_outreach_line(company_name: str, reasons: list[str]) -> str:
     name = company_name.title()
 
     if is_tech and is_london:
-        return (
-            f"{name} incorporated recently in London — R&D tax relief, EMI share schemes, "
-            f"and early structure decisions are worth getting right from month one. "
-            f"Worth a conversation?"
-        )
+        variants = [
+            f"{name} incorporated recently in London — R&D tax relief, EMI share schemes, and early structure decisions are worth getting right from month one. Worth a conversation?",
+            f"R&D tax relief and EMI share schemes are time-sensitive for {name} — getting the structure right early in London makes a real difference. Happy to talk?",
+            f"For a newly incorporated London tech business like {name}, early R&D and share scheme advice tends to pay for itself several times over. Worth a call?",
+            f"Getting {name}'s R&D tax position and share scheme setup right from the start is much easier than correcting it later. Open to a quick conversation?",
+        ]
     elif is_tech:
-        return (
-            f"{name} is a newly incorporated tech business — R&D tax credits and share scheme "
-            f"setup are time-sensitive from incorporation. Happy to run through what applies to them?"
-        )
+        variants = [
+            f"{name} is a newly incorporated tech business — R&D tax credits and share scheme setup are time-sensitive from incorporation. Happy to run through what applies?",
+            f"Early R&D tax credit and EMI setup advice could save {name} significantly — these are most effective when structured from the start. Worth a quick call?",
+            f"Tech businesses like {name} often leave R&D relief and share scheme value on the table by leaving it too late. Happy to have a conversation?",
+            f"Sorting {name}'s R&D position and share scheme structure early avoids costly corrections later. Open to a brief conversation?",
+        ]
     elif is_property and is_london:
-        return (
-            f"{name} has just incorporated in London with property activity — VAT elections, "
-            f"SDLT structure, and ownership setup are worth reviewing early. "
-            f"Would a quick conversation be useful?"
-        )
+        variants = [
+            f"{name} has just incorporated in London with property activity — VAT elections, SDLT structure, and ownership setup are worth reviewing early. Would a quick conversation be useful?",
+            f"VAT elections and SDLT structure decisions made early can save {name} significantly — London property businesses benefit most from getting this right at incorporation. Worth a call?",
+            f"For {name}, incorporating in London with property interests means VAT, SDLT, and ownership structure decisions are time-sensitive. Happy to run through what matters most?",
+            f"Property businesses like {name} face real VAT and SDLT exposure from day one in London — early advice is far cheaper than correcting mistakes later. Open to a conversation?",
+        ]
     elif is_property:
-        return (
-            f"{name} incorporated recently with property interests — SDLT structure, VAT position, "
-            f"and ownership setup are worth reviewing before their first transaction. "
-            f"Worth a brief call?"
-        )
+        variants = [
+            f"{name} incorporated recently with property interests — SDLT structure, VAT position, and ownership setup are worth reviewing before their first transaction. Worth a brief call?",
+            f"SDLT structure and VAT elections are time-sensitive for {name} — getting these right before the first transaction is far easier than fixing them afterwards. Happy to help?",
+            f"Property businesses like {name} often face avoidable SDLT and VAT exposure from day one — early advice tends to pay for itself quickly. Worth a conversation?",
+            f"Reviewing {name}'s SDLT and VAT position before their first transaction could prevent some expensive mistakes. Open to a brief call?",
+        ]
     elif is_london and is_diversified:
-        return (
-            f"{name} is a newly incorporated London business with activity across multiple sectors — "
-            f"early advice on structure, VAT, and reporting obligations tends to save significant cost later. "
-            f"Open to a conversation?"
-        )
+        variants = [
+            f"{name} is a newly incorporated London business with activity across multiple sectors — early advice on structure, VAT, and reporting obligations tends to save significant cost later. Open to a conversation?",
+            f"With activity across multiple sectors, {name} would benefit from early advice on structure, VAT registration, and reporting — getting this right in London from the start pays off. Worth a call?",
+            f"A newly incorporated London business operating across sectors, {name} would benefit from early structure and VAT advice — it tends to save meaningful cost later. Happy to have a conversation?",
+            f"Diversified from the start, {name} faces reporting and VAT decisions across multiple sectors — early London accountancy advice tends to save significant cost. Open to a brief call?",
+        ]
     elif is_london:
-        return (
-            f"{name} incorporated recently in London — getting accounts, tax registration, "
-            f"and payroll set up correctly from the start avoids costly corrections later. "
-            f"Would it be worth a brief call?"
-        )
+        variants = [
+            f"{name} incorporated recently in London — getting accounts, tax registration, and payroll set up correctly from the start avoids costly corrections later. Would it be worth a brief call?",
+            f"A new London company like {name} has a short window to get accounts, tax registration, and payroll set up correctly — it's much easier at the start. Happy to help?",
+            f"Getting {name}'s accounts, tax registration, and payroll set up correctly from day one in London is much simpler than fixing it later. Worth a quick conversation?",
+            f"Early-stage London businesses like {name} often underestimate the cost of getting accounts, tax, and payroll wrong — it's much cheaper to get right from the start. Open to a call?",
+        ]
     else:
-        return (
-            f"{name} incorporated recently — early advice on accounts, corporation tax, "
-            f"and payroll setup prevents the common mistakes that cost new businesses later. "
-            f"Happy to have a quick conversation if useful?"
-        )
+        variants = [
+            f"{name} incorporated recently — early advice on accounts, corporation tax, and payroll setup prevents the common mistakes that cost new businesses later. Happy to have a quick conversation if useful?",
+            f"New businesses like {name} often encounter avoidable tax and payroll mistakes in the first year — early advice tends to be straightforward and well worth it. Worth a call?",
+            f"Getting {name}'s accounts, corporation tax, and payroll set up correctly from the start prevents costly corrections later. Happy to have a brief conversation?",
+            f"Most new businesses make avoidable tax and payroll errors in year one — a quick conversation with {name} now could save meaningful cost later. Open to it?",
+        ]
+
+    return variants[hash(company_name) % len(variants)]
 
 
 def main():
@@ -130,6 +144,8 @@ def main():
             "score": score["score"],
             "band": band,
             "score_reasons": "; ".join(reasons),
+            "director_name": company.get("director_name", "Not listed"),
+            "director_appointed": company.get("director_appointed", ""),
             "why_it_matters": build_why_it_matters(reasons, band),
             "suggested_outreach_line": build_outreach_line(company.get("company_name", ""), reasons),
         })
@@ -144,12 +160,12 @@ def main():
         for row in rows
     ]
 
-    with output_path.open("w", newline="", encoding="utf-8") as f:
+    with output_path.open("w", newline="", encoding="utf-8-sig") as f:
         writer = csv.DictWriter(f, fieldnames=labeled_columns)
         writer.writeheader()
         writer.writerows(labeled_rows)
 
-    with summary_path.open("w", newline="", encoding="utf-8") as f:
+    with summary_path.open("w", newline="", encoding="utf-8-sig") as f:
         writer = csv.DictWriter(f, fieldnames=SUMMARY_COLUMNS)
         writer.writeheader()
         for row in labeled_rows:
