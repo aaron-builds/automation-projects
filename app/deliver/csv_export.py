@@ -2,6 +2,11 @@ import csv
 import json
 from pathlib import Path
 
+from openpyxl import Workbook
+from openpyxl.styles import Font, PatternFill
+from openpyxl.formatting.rule import ColorScaleRule
+from openpyxl.utils import get_column_letter
+
 FIXTURES = Path(__file__).parents[2] / "fixtures"
 OUTPUTS = Path(__file__).parents[2] / "outputs"
 
@@ -36,6 +41,61 @@ COLUMN_LABELS = {
 }
 
 SUMMARY_COLUMNS = ["Company Name", "Region", "Priority", "Suggested Outreach"]
+
+XLSX_COLUMNS = [
+    "Company Name",
+    "Region",
+    "Director Name",
+    "Director Appointed",
+    "Lead Score",
+    "Priority",
+    "Suggested Outreach",
+]
+
+
+def export_xlsx(rows: list[dict], output_path: Path) -> None:
+    wb = Workbook()
+    ws = wb.active
+    ws.title = "Leads"
+
+    header_font = Font(name="Calibri", size=11, bold=True, color="FFFFFF")
+    header_fill = PatternFill(fill_type="solid", fgColor="333333")
+    body_font = Font(name="Calibri", size=11)
+
+    ws.append(XLSX_COLUMNS)
+    for cell in ws[1]:
+        cell.font = header_font
+        cell.fill = header_fill
+
+    for row in rows:
+        ws.append([row.get(col, "") for col in XLSX_COLUMNS])
+
+    for ws_row in ws.iter_rows(min_row=2):
+        for cell in ws_row:
+            cell.font = body_font
+
+    for col_idx, col_name in enumerate(XLSX_COLUMNS, 1):
+        col_letter = get_column_letter(col_idx)
+        max_len = len(col_name)
+        for (cell,) in ws.iter_rows(min_row=2, min_col=col_idx, max_col=col_idx):
+            if cell.value is not None:
+                max_len = max(max_len, len(str(cell.value)))
+        ws.column_dimensions[col_letter].width = min(max_len + 4, 80)
+
+    score_col = XLSX_COLUMNS.index("Lead Score") + 1
+    score_letter = get_column_letter(score_col)
+    last_row = ws.max_row
+    if last_row >= 2:
+        ws.conditional_formatting.add(
+            f"{score_letter}2:{score_letter}{last_row}",
+            ColorScaleRule(
+                start_type="min", start_color="FF4F4F",
+                end_type="max", end_color="4ADE80",
+            ),
+        )
+
+    wb.save(output_path)
+    print(f"XLSX export written to {output_path}")
 
 
 def build_why_it_matters(reasons: list[str], band: str) -> str:
@@ -178,6 +238,9 @@ def main():
 
     print(f"Export complete: {len(rows)} leads written to {output_path}")
     print(f"Summary written to {summary_path}")
+
+    xlsx_path = OUTPUTS / "demo-leads-london-jun2026.xlsx"
+    export_xlsx(labeled_rows, xlsx_path)
 
 
 if __name__ == "__main__":
