@@ -45,6 +45,15 @@ EMAIL_RE = re.compile(
     r"[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
 )
 
+# Domains that produce false positives: personal email, error tracking, placeholders
+JUNK_DOMAINS = {
+    "gmail.com", "yahoo.com", "hotmail.com", "outlook.com",
+    "email.com", "mail.com",
+    "sentry-next.wixpress.com", "wixpress.com",
+}
+
+IMAGE_EXT_RE = re.compile(r"\.(png|jpg|jpeg|gif|svg|webp)$", re.I)
+
 
 def delay():
     time.sleep(1)
@@ -110,8 +119,18 @@ def fetch_html(url: str) -> str:
         return ""
 
 
+def is_junk_email(email: str) -> bool:
+    email = email.strip()
+    if email.startswith("%"):
+        return True
+    if IMAGE_EXT_RE.search(email):
+        return True
+    domain = email.split("@")[-1].lower() if "@" in email else ""
+    return domain in JUNK_DOMAINS
+
+
 def extract_emails_from_html(html: str) -> list[str]:
-    """Extract emails: mailto links first, then regex."""
+    """Extract emails: mailto links first, then regex. Filters junk results."""
     if not html:
         return []
     soup = BeautifulSoup(html, "html.parser")
@@ -120,10 +139,13 @@ def extract_emails_from_html(html: str) -> list[str]:
         href = tag["href"]
         if href.lower().startswith("mailto:"):
             addr = href[7:].split("?")[0].strip()
-            if addr and EMAIL_RE.match(addr):
+            if addr and EMAIL_RE.match(addr) and not is_junk_email(addr):
                 emails.append(addr.lower())
     if not emails:
-        emails = [e.lower() for e in EMAIL_RE.findall(html)]
+        emails = [
+            e.lower() for e in EMAIL_RE.findall(html)
+            if not is_junk_email(e)
+        ]
     return list(dict.fromkeys(emails))  # deduplicate, preserve order
 
 
