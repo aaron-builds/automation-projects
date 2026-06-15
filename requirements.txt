@@ -2,3 +2,4 @@ requests
 pydantic
 python-dotenv
 openpyxl
+beautifulsoup4
