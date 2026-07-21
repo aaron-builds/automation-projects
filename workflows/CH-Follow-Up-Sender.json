@@ -1,0 +1,190 @@
+{
+  "name": "CH Follow-Up Sender",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 8 * * 1-5"
+            }
+          ]
+        }
+      },
+      "id": "b1e1a1a0-0001-4a00-8000-000000000001",
+      "name": "Schedule Trigger (Mon-Fri 8am)",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -400,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "resource": "sheet",
+        "operation": "read",
+        "documentId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "1Nm31a082RhKSt6O9Y8veWEn1FE_OkkIs6lwBMumK0Jw"
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "name",
+          "value": "Sheet1"
+        },
+        "options": {}
+      },
+      "id": "b1e1a1a0-0002-4a00-8000-000000000002",
+      "name": "Get Tracker Rows",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        -160,
+        0
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "PLACEHOLDER",
+          "name": "Google Sheets account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "function formatDateDDMMYYYY(date) {\n  const dd = String(date.getDate()).padStart(2, '0');\n  const mm = String(date.getMonth() + 1).padStart(2, '0');\n  const yyyy = date.getFullYear();\n  return `${dd}/${mm}/${yyyy}`;\n}\n\nconst today = new Date();\nconst todayStr = formatDateDDMMYYYY(today);\nconst sevenDaysOut = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);\nconst nextActionDateStr = formatDateDDMMYYYY(sevenDaysOut);\n\nconst output = [];\n\nfor (const item of $input.all()) {\n  const row = item.json;\n\n  const status = (row['Status'] || '').toString().trim().toLowerCase();\n  const nextActionDate = (row['Next Action Date'] || '').toString().trim();\n  const email = (row['Email'] || '').toString().trim();\n  const stageRaw = row['Stage'];\n  const stageEmpty = stageRaw === undefined || stageRaw === null || stageRaw.toString().trim() === '';\n  const stage = stageEmpty ? 1 : Number(stageRaw);\n\n  const isSent = status === 'sent';\n  const isDueToday = nextActionDate === todayStr;\n  const hasEmail = email.length > 0;\n  const isStageOne = stage === 1;\n\n  if (isSent && isDueToday && hasEmail && isStageOne) {\n    const city = row['City'] || '';\n    output.push({\n      json: {\n        row_number: row.row_number,\n        email,\n        firm: row['Firm'] || '',\n        contactName: row['Contact Name'] || '',\n        city,\n        subject: `Re: New companies in ${city} — before they've found an accountant`,\n        body: `Hi,\\n\\nJust checking this landed — inboxes get busy.\\n\\nIf you would like the ${city} list for this week, reply and I will send it over.\\n\\nAaron Akoto\\naaron.akoto.systems@gmail.com`,\n        newNextActionDate: nextActionDateStr\n      }\n    });\n  } else {\n    console.log(\n      `Skipped row ${row.row_number} (${row['Firm'] || 'unknown firm'}, ${email || 'no email'}): ` +\n      `status=\"${row['Status']}\" nextActionDate=\"${nextActionDate}\" stage=\"${stageRaw}\"`\n    );\n  }\n}\n\nreturn output;"
+      },
+      "id": "b1e1a1a0-0003-4a00-8000-000000000003",
+      "name": "Filter Due Follow-Ups",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        80,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "message",
+        "operation": "send",
+        "sendTo": "={{ $json.email }}",
+        "subject": "={{ $json.subject }}",
+        "message": "={{ $json.body }}",
+        "options": {}
+      },
+      "id": "b1e1a1a0-0004-4a00-8000-000000000004",
+      "name": "Send Follow-Up Email",
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        320,
+        0
+      ],
+      "onError": "continueRegularOutput",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "PLACEHOLDER",
+          "name": "Gmail account 6"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "authentication": "oAuth2",
+        "resource": "sheet",
+        "operation": "update",
+        "documentId": {
+          "__rl": true,
+          "mode": "id",
+          "value": "1Nm31a082RhKSt6O9Y8veWEn1FE_OkkIs6lwBMumK0Jw"
+        },
+        "sheetName": {
+          "__rl": true,
+          "mode": "name",
+          "value": "Sheet1"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "matchingColumns": [
+            "row_number"
+          ],
+          "value": {
+            "row_number": "={{ $json.row_number }}",
+            "Status": "Followed Up",
+            "Next Action Date": "={{ $json.newNextActionDate }}",
+            "Stage": 2
+          }
+        },
+        "options": {}
+      },
+      "id": "b1e1a1a0-0005-4a00-8000-000000000005",
+      "name": "Update Tracker Row",
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        560,
+        0
+      ],
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "PLACEHOLDER",
+          "name": "Google Sheets account 2"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Schedule Trigger (Mon-Fri 8am)": {
+      "main": [
+        [
+          {
+            "node": "Get Tracker Rows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Get Tracker Rows": {
+      "main": [
+        [
+          {
+            "node": "Filter Due Follow-Ups",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Filter Due Follow-Ups": {
+      "main": [
+        [
+          {
+            "node": "Send Follow-Up Email",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Send Follow-Up Email": {
+      "main": [
+        [
+          {
+            "node": "Update Tracker Row",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

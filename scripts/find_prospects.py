@@ -1,8 +1,9 @@
-#!/usr/bin/env python3
 """
 Find UK accountancy practices for cold outreach using Google Places API.
 Usage: python scripts/find_prospects.py [city1 city2 ...]
 """
+import gspread
+from google.oauth2.service_account import Credentials
 import csv
 import re
 import sys
@@ -19,8 +20,18 @@ load_dotenv()
 GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
 
 DEFAULT_CITIES = [
+    # South London (current)
     "Bromley", "Croydon", "Lewisham", "Greenwich", "Hackney",
     "Camden", "Wandsworth", "Battersea", "Southwark", "Lambeth",
+    # North / East / West London
+    "Islington", "Hackney", "Tower Hamlets", "Newham", "Walthamstow",
+    "Barnet", "Enfield", "Haringey", "Ealing", "Hounslow",
+    # Major UK cities
+    "Birmingham", "Manchester", "Leeds", "Bristol", "Leicester",
+    "Sheffield", "Nottingham", "Liverpool", "Edinburgh", "Glasgow",
+    # High SME density towns
+    "Reading", "Milton Keynes", "Luton", "Watford", "Slough",
+    "Guildford", "Brighton", "Southampton", "Portsmouth", "Oxford",
 ]
 
 GENERIC_PREFIXES = {
@@ -29,7 +40,7 @@ GENERIC_PREFIXES = {
     "reception", "noreply", "no-reply", "sales",
 }
 
-OUTPUT_PATH = Path("outputs/prospects.csv")
+OUTPUT_PATH = Path(__file__).parent.parent / "outputs" / "prospects.csv"
 CSV_HEADERS = ["Firm", "City", "Website", "Email", "Email Quality", "Phone"]
 
 PLACES_SEARCH_URL = "https://places.googleapis.com/v1/places:searchText"
@@ -45,7 +56,6 @@ EMAIL_RE = re.compile(
     r"[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
 )
 
-# Domains that produce false positives: personal email, error tracking, placeholders
 JUNK_DOMAINS = {
     "gmail.com", "yahoo.com", "hotmail.com", "outlook.com",
     "email.com", "mail.com",
@@ -54,13 +64,15 @@ JUNK_DOMAINS = {
 
 IMAGE_EXT_RE = re.compile(r"\.(png|jpg|jpeg|gif|svg|webp)$", re.I)
 
+SHEET_ID = "1Nm31a082RhKSt6O9Y8veWEn1FE_OkkIs6lwBMumK0Jw"
+CREDS_PATH = Path(__file__).parent.parent / "credentials" / "sheets_service_account.json"
+
 
 def delay():
     time.sleep(1)
 
 
 def search_places(city: str) -> list[dict]:
-    """Return up to 10 places for 'independent accountants {city}'."""
     headers = {
         "Content-Type": "application/json",
         "X-Goog-Api-Key": GOOGLE_MAPS_API_KEY,
@@ -86,7 +98,6 @@ def search_places(city: str) -> list[dict]:
 
 
 def get_place_details(place_id: str) -> dict:
-    """Fetch websiteUri for a place."""
     url = PLACES_DETAIL_URL.format(place_id=place_id)
     headers = {
         "X-Goog-Api-Key": GOOGLE_MAPS_API_KEY,
@@ -103,7 +114,6 @@ def get_place_details(place_id: str) -> dict:
 
 
 def fetch_html(url: str) -> str:
-    """Fetch a URL and return HTML text, or empty string on failure."""
     delay()
     try:
         resp = requests.get(
@@ -130,7 +140,6 @@ def is_junk_email(email: str) -> bool:
 
 
 def extract_emails_from_html(html: str) -> list[str]:
-    """Extract emails: mailto links first, then regex. Filters junk results."""
     if not html:
         return []
     soup = BeautifulSoup(html, "html.parser")
@@ -146,11 +155,10 @@ def extract_emails_from_html(html: str) -> list[str]:
             e.lower() for e in EMAIL_RE.findall(html)
             if not is_junk_email(e)
         ]
-    return list(dict.fromkeys(emails))  # deduplicate, preserve order
+    return list(dict.fromkeys(emails))
 
 
 def find_email(website: str) -> str:
-    """Try homepage then /contact page; return first email found or empty string."""
     if not website:
         return ""
     base = website.rstrip("/")
@@ -173,6 +181,38 @@ def classify_email(email: str) -> str:
 
 def normalise_name(name: str) -> str:
     return re.sub(r"\s+", " ", name.strip().lower())
+
+
+def push_to_sheets(rows: list[dict]):
+    scopes = ["https://www.googleapis.com/auth/spreadsheets"]
+    creds = Credentials.from_service_account_file(str(CREDS_PATH), scopes=scopes)
+    client = gspread.authorize(creds)
+    sheet = client.open_by_key(SHEET_ID).sheet1
+
+    existing = sheet.col_values(4)  # Email column (D)
+    existing_emails = set(existing[1:])
+
+    new_rows = []
+    for row in rows:
+        email = row.get("Email", "")
+        if email and email not in existing_emails:
+            new_rows.append([
+                "",                     # Date Sent
+                row.get("Firm", ""),    # Firm
+                row.get("Firm", ""),    # Contact Name
+                email,                  # Email
+                row.get("City", ""),    # City
+                "",                     # Status
+                "",                     # Loom Sent
+                row.get("Website", ""), # Notes
+                "",                     # Next Action Date
+            ])
+
+    if new_rows:
+        sheet.append_rows(new_rows, value_input_option="RAW")
+        print(f"\nPushed {len(new_rows)} new prospects to Google Sheets.")
+    else:
+        print("\nNo new prospects to push — all already in tracker.")
 
 
 def main():
@@ -230,6 +270,12 @@ def main():
                 f.flush()
 
     print(f"\nDone. Results saved to {OUTPUT_PATH}")
+
+    all_rows = []
+    with open(OUTPUT_PATH, "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        all_rows = [r for r in reader if r.get("Email")]
+    push_to_sheets(all_rows)
 
 
 if __name__ == "__main__":
