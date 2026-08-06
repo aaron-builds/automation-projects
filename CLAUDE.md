@@ -1,0 +1,1 @@
+Context lives in /context — load the relevant file before any task. Ask rather than assume.
